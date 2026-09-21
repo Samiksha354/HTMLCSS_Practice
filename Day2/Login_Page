@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////login page/////////////////////////////////////////////////////////////
 
 
-
+####################################################   HTML   ############################################################
 
 <!DOCTYPE html>
 <html lang="en">
@@ -58,3 +58,125 @@
     </section>
 </body>
 </html>
+
+
+
+
+###################################################### CSS ############################################################
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+section{
+    font-size: medium;
+    font-style: italic;
+     min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f4f4f4;
+}
+
+main{
+    
+    width:350px;
+    padding: 30px; 
+   
+    background-color: cadetblue;
+
+    border:2px solid rgb(17, 17, 72);
+   border-radius: 20px;
+
+   box-shadow: 0px 14px 14px 0px black;
+   
+}
+
+.welcome{
+    
+    text-align: center;
+     margin-bottom: 25px;
+    
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info input {
+    width: 100%;
+    padding: 10px;
+
+    border: 1px solid gray;
+    border-radius: 8px;
+
+    margin-bottom: 12px;
+}  
+
+.info input:focus {
+    outline: 2px solid blue;
+}
+
+.info2{
+    margin-top:20px;
+   
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.info2 label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.info2 a,
+.info3 a {
+    text-decoration: none;
+}
+
+button{
+    width:100%;
+
+    padding:10px;
+
+     
+    background-color: rgb(14, 14, 61);
+    color:white;
+
+    border:2px solid silver;
+    border-radius: 8px;
+
+    margin-top:25px;
+    
+
+    cursor: pointer;
+    
+}
+
+button:hover{
+     background-color: brown;
+}
+
+.info3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+     gap: 5px;
+
+    margin-top: 20px;
+}
+
+
+
